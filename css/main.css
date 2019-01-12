@@ -2483,13 +2483,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url(../img/hero-bg.jpg) center;
+  background: rgb(66,147,194);
   background-size: cover;
 }
-
+/* 
 .banner-area .overlay-bg {
   background: rgba(4, 9, 30, 0.4);
-}
+} */
 
 @media (max-width: 767px) {
   .banner-area .fullscreen {

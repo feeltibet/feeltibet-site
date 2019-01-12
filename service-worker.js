@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/feeltibet-site/precache-manifest.d114bb196d11de79ab5655f613882530.js"
+  "/feeltibet-site/precache-manifest.5c26e638dbe3d03e58a72591eb45d053.js"
 );
 
 workbox.clientsClaim();
