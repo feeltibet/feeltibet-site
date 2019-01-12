@@ -15,7 +15,7 @@ export const HomeSection = (props) => {
                         <a href="#about" className="primary-btn text-uppercase">Get Started</a>
                     </div>
                     <div className="col-lg-4 col-md-6 banner-right">
-                        <ul className="nav nav-tabs" id="myTab" role="tablist">
+                       {/*  <ul className="nav nav-tabs" id="myTab" role="tablist">
                             <li className="nav-item">
                                 <a className="nav-link active" id="flight-tab" data-toggle="tab" href="#flight" role="tab" aria-controls="flight" aria-selected="true">Some Info</a>
                             </li>
@@ -49,7 +49,8 @@ export const HomeSection = (props) => {
                                     Pellentesque a erat quis turpis ullamcorper convallis. Vestibulum id nibh aliquet, lacinia libero a,
                                     mattis erat. Fusce id volutpat nisi. Donec massa tortor, faucibus in accumsan euismod, consequat ac felis.
                             </div>
-                        </div>
+                        </div> */}
+                        <img className="img-fluid" src="img/logo.jpeg" />
                     </div>
                 </div>
             </div>

@@ -28,7 +28,7 @@ export const Tours = () => {
                                 <p>Day 1: pick up from train or flight and drop to hotel </p>
                                 <p>Day 2: morning visit Jokang temple in the  afternoon sera monastery </p>
                                 <p>Day 3: three visit potala palace and Norbulingka   in afternoon.</p>
-                                <a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style={{ color: "white" }}>READ FULL ITINERARY</a>
+                                <a class="btn genric-btn primary" data-toggle="modal" data-target="#exampleModal" style={{ color: "white" }}>READ FULL ITINERARY</a>
                             </div>
                         </div>
                     </div>

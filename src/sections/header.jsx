@@ -26,7 +26,7 @@ export const Header = (props) => {
             <div className="container main-menu">
                 <div className="row align-items-center justify-content-between d-flex">
                     <div id="logo">
-                        <h1 style={{color: 'white'}}>Feel Tibet Tour</h1>
+                        <h2 style={{color: 'white'}}>Feel Tibet Tour</h2>
                     </div>
                     <nav id="nav-menu-container">
                         <ul className="nav-menu">
