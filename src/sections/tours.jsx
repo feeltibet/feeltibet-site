@@ -28,7 +28,7 @@ export const Tours = () => {
                 <Card
                     title="8 days tour to EBC"
                     buttonLabel="READ FULL ITINERARY"
-                    img="img/tour-2.jpg"
+                    img="img/tour-2-body-1.jpg"
                     description="This trip is one of the most popular adventure tours in the world as its visitors cross the mighty Himalayas and view the panorama of the world’s highest peaks..."
                     modal="#lhasa8days"
                 />
