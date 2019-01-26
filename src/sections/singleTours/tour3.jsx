@@ -6,34 +6,10 @@ export const Tour3 = () => {
         <Modal
             id="lhasa9days"
             title="9 Days tour Lhasa, EBC and Namtos lake ">
-            <p>9 Days tour Lhasa, EBC and Namtos lake </p>
-
-            <p>Trip Outline Activity Accommodation</p>
-
-            <p>Day 1 Arrival in Lhasa (3650m) Pick up and transfer to hotel, rest at hotel. Hotel in Lhasa</p>
-
-            <p>Day 2 Lhasa sightseeing Bakhor street, Johkang Temple, Potala Palace Hotel in Lhasa</p>
-
-            <p>Day 3 Lhasa sightseeing Sera Monastery, Drepung Monastery Hotel in Lhasa</p>
-
-            <p>Day 4 Lhasa-Shigatse (3850m), 350km, approx 7hrs</p>
-
-            <p>Yamdrok Lake, Karola Glacier, Kumbum Stupa Hotel in Shigatse</p>
-
-            <p>Day 5 Shigatse-EBC (5200m), 350km, approx 7hrs Rongbuk monastery, EBC EBC guesthouse</p>
-
-            <p>Day 6 EBC-Shigatse (3850m), 350km, approx 7hrs Tashi Lhunpo monastery Hotel in Shigatse</p>
-
-            <p>Day 7 Shigatse-Namtso lake (4600m), 380km, approx 7.5hrs Tashi Do Peninsula, Namtso lake Local guesthouse</p>
-
-            <p>Day 8 Namtso-Lhasa (3650m), 250km, approx 4hrs Typical Tibetan villages Hotel in Lhasa</p>
-
-            <p>Day 9 Depart from Tibet send off to airport/train station </p>
-
             <p></p>
 
             <h2>Day 1</h2>
-            <h3>Lhasa arrival [3650m]</h3>\
+            <h3>Lhasa arrival [3650m]</h3>
 
             <p>Today our English seaking guide will pick you up from Airport or Train statin and drop you to hotel, for better Acclimatization, drink more water and take good rest to minimize the altitude sickness.</p>
 
