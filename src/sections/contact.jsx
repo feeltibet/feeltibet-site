@@ -3,41 +3,20 @@ import React from 'react';
 export const Contact = (props) => {
     return (
         <section id="contact" class="contact-page-area section-gap">
-        <h1 style={{textAlign: "center", marginBottom: "2em"}}>
-            Contact Us
+            <h1 style={{ textAlign: "center", marginBottom: "2em" }}>
+                Contact Us
         </h1>
             <div class="container">
-                <div class="row">
-                    <div class="map-wrap" style={{ width: '100%', height: 445 }} id="map"></div>
+                <div class="row">{/* 
+                    <div class="map-wrap" style={{ width: '100%', height: 445 }} id="map"></div> */}
                     <div class="col-lg-4 d-flex flex-column address-wrap">
                         <div class="single-contact-address d-flex flex-row">
-                            <div class="icon">
-                                <span class="lnr lnr-home"></span>
-                            </div>
-                            <div class="contact-details">
-                                <h5>Binghamton, New York</h5>
-                                <p>
-                                    4343 Hinkle Deegan Lake Road
-                        </p>
-                            </div>
+                            <img style={{
+                                width: 'auto',
+                                height: '25rem'
+                            }} className="img-fluid" src="img/qr-code.jpeg" />
                         </div>
-                        <div class="single-contact-address d-flex flex-row">
-                            <div class="icon">
-                                <span class="lnr lnr-phone-handset"></span>
-                            </div>
-                            <div class="contact-details">
-                                <h5>00 (958) 9865 562</h5>
-                                <p>Mon to Fri 9am to 6 pm</p>
-                            </div>
-                        </div>
-                        <div class="single-contact-address d-flex flex-row">
-                            <div class="icon">
-                                <span class="lnr lnr-envelope"></span>
-                            </div>
-                            <div class="contact-details">
-                                <h5>support@colorlib.com</h5>
-                                <p>Send us your query anytime!</p>
-                            </div>
+                        <div className="row"><p style={{margin:'0 auto'}}>WeChat ID: feeltibet</p>
                         </div>
                     </div>
                     <div class="col-lg-8">

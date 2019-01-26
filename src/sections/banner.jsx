@@ -50,7 +50,7 @@ export const HomeSection = (props) => {
                                     mattis erat. Fusce id volutpat nisi. Donec massa tortor, faucibus in accumsan euismod, consequat ac felis.
                             </div>
                         </div> */}
-                        <img className="img-fluid" src="img/logo.jpeg" />
+                        <img className="img-fluid" src="img/logo-t.png" />
                     </div>
                 </div>
             </div>
