@@ -2097,9 +2097,10 @@ h1, h2, h3, h4, h5, h6 {
 .main-menu {
   padding-bottom: 20px;
   padding-top: 20px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 195, 255, 0.15);
   padding-left: 15px;
   padding-right: 15px;
+  border-radius: 10px;
 }
 
 #header {
@@ -2483,7 +2484,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: rgb(66,147,194);
+  background-image: url('../img/hero-bg.jpg');
   background-size: cover;
 }
 /* 
