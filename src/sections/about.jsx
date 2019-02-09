@@ -1,4 +1,6 @@
 import React from 'react';
+import { Modal } from '../components/modal/modal';
+import { ModalFood } from './modalFood';
 
 export const About = (props) => {
     return (
@@ -67,10 +69,44 @@ export const About = (props) => {
                                   Tashi Delek!</p>
                         </div>
                         <div class="col-lg-6 col-md-12 home-about-right no-padding">
-                            <img class="img-fluid" src="img/about-img.jpg" alt=""></img>
+                            <img class="img-fluid" src="img/founder-1.jpg" alt=""></img>
                         </div>
                     </div>
                 </div>
+            </section>
+            <section id="food" class="home-about-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center justify-content-end">
+                        <div class="col-lg-6 col-md-12 home-about-right no-padding">
+                            <img class="img-fluid" src="img/food.jpg" alt=""></img>
+                        </div>
+                        <div class="col-lg-6 col-md-12 home-about-left">
+                            <h1>Tibetan Food</h1>
+                            <p>Information on tibet and tibetan Food  Location:
+                                The Tibetan Plateau is located in central Asia, bordered by
+                                India and Nepal in the southeast; Bhutan in the south; and a number
+                                of Chinese provinces in the north and the east. Population: 2.84 million
+                                in the Tibet Autonomous Region, 5.5 million in all ethnic Tibetan
+                                regions in China Area: 1.2 million sq km in the Tibet Autonomous Region,
+                                 2.5 million sq km in all contiguous ethnic Tibetan areas in China
+                                 (approximately the size of Western Europe) Average elevation: 4,900m
+                                 Terrain: 70% grassland, with forested areas in the lower elevations
+                                 and tall mountain ranges at higher elevations Climate: Warm in the summer
+                                 (avg. 28C), cold in the winter (-15C), and extremely dry
+                                 (except during the rainy season in July and August) Languages:
+                                 Tibetan and Chinese Economy: agriculture,animal husbandry and business
+                                [...]
+                                </p>
+                            <a data-toggle="modal" style={{ color: "white", background: '#f8b600', borderRadius: 0, border: 'none' }} data-target="#foodmodal" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <Modal
+                    title="Food"
+                    id="foodmodal"
+                >
+                <ModalFood />
+                </Modal>
             </section>
         </div>
     )

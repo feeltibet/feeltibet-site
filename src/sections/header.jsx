@@ -18,6 +18,7 @@ export const Header = (props) => {
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#why">Why Us</a></li>
                             <li><a href="#tours">Tours</a></li>
+                            <li><a href="#howtotravel">How to Travel</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </nav>
