@@ -45,6 +45,8 @@ export const Contact = (props) => {
                             Beijing East road <br />
                             850000 <br />
                             Phone 13618913433, 15089020597</p>
+                            <h2>Skype</h2>
+                        <p>id: gonpoyonden</p>
                     </div>
                     <div class="col-lg-4 d-flex flex-column address-wrap text-center">
 
@@ -52,9 +54,8 @@ export const Contact = (props) => {
     margin: '0 auto'}} class="elfsight-app-064ea279-8c41-4c3f-9b36-d353218d4c5a"></div>
                     </div>
                     <div class="col-lg-4 d-flex flex-column address-wrap text-center">
-                        <h2>Skype</h2>
-                        <p>id: gonpoyonden</p>
-                    </div>
+                    <div id="TA_selfserveprop833" class="TA_selfserveprop"><ul id="J7uBdOWkjHk" class="TA_links F9hmqQqOfS"><li id="9lZssY" class="1Cf4JqDmTf"><a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a></li></ul></div>
+                </div>
                 </div>
             </div>
         </section >)
