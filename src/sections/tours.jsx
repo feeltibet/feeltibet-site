@@ -5,6 +5,7 @@ import { Tour1 } from './singleTours/tour1';
 import { Tour2 } from './singleTours/tour2';
 import { Tour3 } from './singleTours/tour3';
 import { Tour4 } from './singleTours/tour4';
+import { Tour5 } from './singleTours/tour5';
 
 export const Tours = () => {
 
@@ -37,15 +38,22 @@ export const Tours = () => {
                         title="9 Days tour Lhasa, EBC and Namtos lake"
                         buttonLabel="READ FULL ITINERARY"
                         img="img/tour-3.jpg"
-                        description="A 9 days trip. ay 1 Arrival in Lhasa (3650m) Pick up and transfer to hotel, rest at hotel. Hotel in Lhasa. Day 2 Lhasa sightseeing Bakhor street, Johkang..."
+                        description="A 9 days trip. Day 1 Arrival in Lhasa (3650m) Pick up and transfer to hotel, rest at hotel. Hotel in Lhasa. Day 2 Lhasa sightseeing Bakhor street, Johkang..."
                         modal="#lhasa9days"
                     />
                     <Card
                         title="15 days Mt. Kailash Tour"
                         buttonLabel="READ FULL ITINERARY"
                         img="img/tour-4-2.jpeg"
-                        description="A 15 days trip. ay 1 Arrival in Lhasa (3650m) Pick up and transfer to hotel, rest at hotel. Hotel in Lhasa. Day 2 Lhasa sightseeing Bakhor street, Johkang..."
+                        description="A 15 days trip. Day 1 Arrival in Lhasa (3650m) Pick up and transfer to hotel, rest at hotel. Hotel in Lhasa. Day 2 Lhasa sightseeing Bakhor street, Johkang..."
                         modal="#lhasa15days"
+                    />
+                    <Card
+                        title="Spiritual Tour"
+                        buttonLabel="READ FULL ITINERARY"
+                        img="img/spiritual2.jpg"
+                        description="A 7 days trip. Today on the way from Lhasa to Namtso lake, you will see different landscape with great views, and you will see the Mt. Nyenchen Tangla..."
+                        modal="#spiritualtour"
                     />
                 </Cards>
             </div>
@@ -53,6 +61,7 @@ export const Tours = () => {
             <Tour2 />
             <Tour3 />
             <Tour4 />
+            <Tour5 />
         </section >
     )
 }

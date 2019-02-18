@@ -34,6 +34,23 @@ export const ModalFood = () => {
             <p>Yak Jerky Tibetans eat a lot of meat, including yak beef, mutton, and pork. Traditionally, the meat is dried and preserved. It is then cut up and tossed into stews or eaten straight off the bone. Don&rsquo;t be surprised if nomads invite you into their tent, hand you a knife and give you a big bowl of dried yak meat still on the bone!</p>
 
             <p>Droma Root Droma is a wild-harvested root found on the plateau grasslands. Served atop a plate of rice and sprinkled with a little sugar and melted butter, droma root is chewy and tasty. Its flavor is similar to sweet potatoes or parsnips.</p>
+
+            <p>See some examples below:</p>
+            <h1>Beef Potato</h1>
+            <img class="img-fluid" src="img/food/beef_potato.jpg"></img>
+            <h1>Momo</h1>
+            <img class="img-fluid" src="img/food/momo.jpg"></img>
+            <h1>Droma</h1>
+            <img class="img-fluid" src="img/food/droma.jpg"></img>
+            <h1>Thukpa</h1>
+            <img class="img-fluid" src="img/food/thukpa.jpg"></img>
+            <h1>Yak Yogurt</h1>
+            <img class="img-fluid" src="img/food/yak_yogurt.jpg"></img>
+            <h1>Yak Jerky</h1>
+            <img class="img-fluid" src="img/food/yaki_jerky.jpg"></img>
+            <h1>Tibetan Tea</h1>
+            <img class="img-fluid" src="img/food/tibetan_tea.jpg"></img>
+
         </div>
     )
 }

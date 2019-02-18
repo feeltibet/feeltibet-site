@@ -9,7 +9,6 @@ export const Tour4 = () => {
 
             <p>Today our English seaking guide will pick you up from Airport or Train statin and drop you to hotel, for better Acclimatization, drink more water and take good rest to minimize the altitude sickness.</p>
             <img class="img-fluid" src="img/tour-4-1.jpeg"></img>
-            <p>Today is your last day in Tibet, your guide and driver will send off to Airport or Train station and its time to say good buy.</p>
             <p> Day 1: Lhasa arrival (3650m)</p>
 
             <p>Today our English seaking guide will pick you up from Airport or Train statin and drop you to hotel, for better Acclimatization, drink more water and take good rest to minimize the altitude sickness.</p>

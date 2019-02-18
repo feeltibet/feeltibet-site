@@ -1,6 +1,8 @@
 import React from 'react';
 import { Modal } from '../components/modal/modal';
 import { ModalFood } from './modalFood';
+import { TibetanCulture } from './tibetanCulture';
+import { Festivals } from './festivals';
 
 export const About = (props) => {
     return (
@@ -52,6 +54,7 @@ export const About = (props) => {
                     </div>
                 </div>
             </section>
+
             <section id="founder" class="home-about-area">
                 <div class="container-fluid">
                     <div class="row align-items-center justify-content-end">
@@ -74,11 +77,12 @@ export const About = (props) => {
                     </div>
                 </div>
             </section>
+
             <section id="food" class="home-about-area">
                 <div class="container-fluid">
                     <div class="row align-items-center justify-content-end">
                         <div class="col-lg-6 col-md-12 home-about-right no-padding">
-                            <img class="img-fluid" src="img/food.jpg" alt=""></img>
+                            <img class="img-fluid" src="img/food/food_cover.jpg" alt=""></img>
                         </div>
                         <div class="col-lg-6 col-md-12 home-about-left">
                             <h1>Tibetan Food</h1>
@@ -92,9 +96,7 @@ export const About = (props) => {
                                  (approximately the size of Western Europe) Average elevation: 4,900m
                                  Terrain: 70% grassland, with forested areas in the lower elevations
                                  and tall mountain ranges at higher elevations Climate: Warm in the summer
-                                 (avg. 28C), cold in the winter (-15C), and extremely dry
-                                 (except during the rainy season in July and August) Languages:
-                                 Tibetan and Chinese Economy: agriculture,animal husbandry and business
+                                 (avg. 28C), cold in the winter (-15C), and
                                 [...]
                                 </p>
                             <a data-toggle="modal" style={{ color: "white", background: '#f8b600', borderRadius: 0, border: 'none' }} data-target="#foodmodal" class="btn btn-primary">Read More</a>
@@ -105,9 +107,59 @@ export const About = (props) => {
                     title="Food"
                     id="foodmodal"
                 >
-                <ModalFood />
+                    <ModalFood />
                 </Modal>
             </section>
+
+            <section id="tibetanculture" class="home-about-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center justify-content-end">
+                        <div class="col-lg-6 col-md-12 home-about-left">
+                            <h1>Tibetan Culture</h1>
+                            <p> Due to Tibet&rsquo;s extreme environment and high altitudes, it has formed its own unique customs over thousands of years. The culture, custom and tradition of Tibet has been set as an example to the world as one of the last remaining authentic cultures in the world. Travelers in Tibet will observe first with Tibetan culture when they visit a family in Tibet. As in Tibetan culture, the hospitality is most respectful cultures in the world. They treat thier guests with the great respect. Tibet&rsquo;s distinctive communal cultures such as etiquette, dress, marriage and burial ceremonies are colorful, unique, and unforgettable. Travelers must visit Tibet during the festivals, so travelers will experience the real authentic Tibet. </p>
+                            <a data-toggle="modal" style={{ color: "white", background: '#f8b600', borderRadius: 0, border: 'none' }} data-target="#culturemodal" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 home-about-right no-padding">
+                            <img class="img-fluid" src="img/tibetan_culture.jpg" alt=""></img>
+                        </div>
+                    </div>
+                    <Modal
+                        title="Culture"
+                        id="culturemodal"
+                    >
+                        <TibetanCulture />
+                    </Modal>
+                </div>
+            </section>
+            <section id="festivals" class="home-about-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center justify-content-end">
+                        <div class="col-lg-6 col-md-12 home-about-right no-padding">
+                            <img class="img-fluid" src="img/festivals.jpg" alt=""></img>
+                        </div>
+                        <div class="col-lg-6 col-md-12 home-about-left">
+                            <h1>Tibetan Festivals</h1>
+                            <p>Tibetan calendar lags approximately four to six weeks behind the solar calendar. For example , the Tibetan first moth usually falls in February, the fifth month usually falls in June or early July and the Eight month usually falls in September.</p>
+
+                            <p>Losar is the Tibetan word for &ldquo; New Year&rdquo;. Tibetan New Year is a very special festival to celebrate in Tibet and it is also the most-awaited festival for all the Tibetans without any difference in age or gender.</p>
+
+                            <a data-toggle="modal" style={{ color: "white", background: '#f8b600', borderRadius: 0, border: 'none' }} data-target="#festivalsmodal" class="btn btn-primary">Read More</a>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <Modal
+                    title="Festivals"
+                    id="festivalsmodal"
+                >
+                    <Festivals />
+                </Modal>
+            </section>
+
         </div>
+
     )
 }
